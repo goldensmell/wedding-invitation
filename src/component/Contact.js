@@ -23,15 +23,15 @@ export default function Contact() {
 				</button>
 				<div className={isManShow ? "accs accs_man" : "acc_none"}> 
 					<div className="acc acc_man">
-						<p>임종국 <br/> 국민은행 57080204035949 </p>
+						<p>홍길동 <br/> 국민은행 11111111111 </p>
 						<button className="copy">복사</button>
 					</div>
 					<div className="acc acc_man">
-                        <p>길금숙 <br/> 국민은행 57080204035949 </p>
+                        <p>홍길동 <br/> 국민은행 11111111111 </p>
 						<button className="copy">복사</button>
 					</div>
 					<div className="acc acc_man">
-						<p>임현수 <br/> 케이뱅크 100-101-195317 </p>
+						<p>홍길동 <br/> 케이뱅크 11111111111 </p>
 						<button className="copy">복사</button>
 					</div>
 				</div>
@@ -42,11 +42,11 @@ export default function Contact() {
 				</button>
 				<div className={isWomanShow ? "accs accs_woman" : "acc_none"}> 
 					<div className="acc acc_woman">
-						<p>임현수 <br/> 국민은행 57080204035949 </p>
+						<p>홍길동 <br/> 국민은행 11111111111 </p>
 						<button className="copy">복사</button>
 					</div>
 					<div className="acc acc_woman">
-						<p>김유미 <br/> 국민은행 57080204035949 </p>
+						<p>홍길동 <br/> 국민은행 11111111111 </p>
 						<button className="copy">복사</button>
 					</div>
 				</div>
