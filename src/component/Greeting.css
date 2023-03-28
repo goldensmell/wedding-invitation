@@ -1,0 +1,16 @@
+.greeting {
+    width: 100vw;
+    height: 500px;
+    background-color: #bab4c6;
+}
+
+.greeting-contents h2 {
+  margin-bottom: 50px;
+}
+
+.greeting-contents {
+    padding-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}

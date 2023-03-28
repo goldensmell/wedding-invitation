@@ -1,0 +1,58 @@
+
+.location {
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .location p {
+    text-align: center;
+  }
+  .location_map {
+    width: 100vw;
+    max-width: 768px;
+    height: 40vh;
+    margin: auto;
+  }
+
+  .location_apps {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    height: 100px;
+    max-width: 768px;
+  }
+
+  .location_app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-color: black;
+  }
+  .location_app img{
+    width: 40px;
+    height: 40px;
+    margin:auto;
+
+  }
+  .location_app p{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .location_come {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .location_come img{
+    width: 30px;
+    height: 30px;
+  }
+  .location_come p {
+    padding-left: 10px;
+    text-align: left;
+  }
