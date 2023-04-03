@@ -20,52 +20,42 @@ code {
 
 
 @font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 100;
-  src: url("./styles/fonts/NotoSansKR-Thin.woff2") format('woff2'),
-  url("./styles/fonts/NotoSansKR-Thin.woff") format('woff'),
-  url("./styles/fonts/NotoSansKR-Thin.otf") format('truetype')
-}
-
-@font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NanumSquareRound Light';
   font-style: normal;
   font-weight: 300;
-  src: url("./styles/fonts/NotoSansKR-Light.woff2") format('woff2'),
-  url("./styles/fonts/NotoSansKR-Light.woff") format('woff'),
-  url("./styles/fonts/NotoSansKR-Light.otf") format('truetype')
+  src: url("./styles/fonts/NanumSquareRoundL.ttf") format('truetype')
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NanumSquareRound Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("./styles/fonts/NotoSansKR-Regular.woff2") format('woff2'),
-  url("./styles/fonts/NotoSansKR-Regular.woff") format('woff'),
-  url("./styles/fonts/NotoSansKR-Regular.otf") format('truetype')
+  src: url("./styles/fonts/NanumSquareRoundR.ttf") format('truetype')
 }
 
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NanumSquareRound Regular';
   font-style: normal;
   font-weight: 500;
-  src: url("./styles/fonts/NotoSansKR-Medium.woff2") format('woff2'),
-  url("./styles/fonts/NotoSansKR-Medium.woff") format('woff'),
-  url("./styles/fonts/NotoSansKR-Medium.otf") format('truetype')
+  src: url("./styles/fonts/NanumSquareRoundR.ttf") format('truetype')
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NanumSquareRound Bold';
   font-style: normal;
   font-weight: bold;
-  src: url("styles/fonts/NotoSansKR-Bold.woff2") format('woff2'),
-  url("styles/fonts/NotoSansKR-Bold.woff") format('woff'),
-  url("styles/fonts/NotoSansKR-Bold.otf") format('truetype')
+  src: url("styles/fonts/NanumSquareRoundB.ttf") format('truetype')
+}
+
+@font-face {
+  font-family: 'NanumSquareRound Extra Bold';
+  font-style: normal;
+  font-weight: 900;
+  src: url("styles/fonts/NanumSquareRoundEB.ttf") format('truetype')
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'NanumSquareRound Regular';
 }

@@ -51,35 +51,35 @@ export default function Location() {
         <div className='location_app location_app_naver' onClick={()=> {
           moveNaverMapApp();
         }}>
-          <img src="image/navermap.png" alt='naver'/>
+          <img src={process.env.PUBLIC_URL+'/image/navermap.png'} alt='naver'/>
           <p>네이버</p>
         </div>
 
         <div className='location_app location_app_kakao' onClick={()=> {
           moveKakaoMapApp();
         }}>
-          <img src="image/kakaomap.png" alt='kakao'/>
+          <img src={process.env.PUBLIC_URL + "/image/kakaomap.png"} alt='kakao'/>
           <p>카카오</p>
         </div>
 
         <div className='location_app location_app_tmap' onClick={()=> {
           moveTMapApp();
         }}>
-          <img src="image/tmap.png" alt='tmap'/>
+          <img src={process.env.PUBLIC_URL + "/image/tmap.png"} alt='tmap'/>
           <p>T맵</p>
         </div>
       </div>
       <div className='location_comes'>
         <div className='location_come location_come_subway'>
-          <img src='image/ico_subway.png'/>
+          <img src={process.env.PUBLIC_URL+'/image/ico_subway.png'}/>
           <p>신분당선 : 판교역 1번 출구 직도보 6분 소요<br/> [셔틀버스 10분간격 운행]</p>
         </div>
         <div className='location_come location_come_car'>
-          <img src='image/ico_car.png'/>
+          <img src={process.env.PUBLIC_URL+'/image/ico_car.png'}/>
           <p>경부고속도로 판교IC(톨게이트) 차출 후 좌회전,<br/>약 700m 직진 - 사거리에서 우회전 (SK 주유소 뒤)<br/> 주차 2시간 무료</p>
         </div>
         <div className='location_come location_come_bus'>
-          <img src='image/ico_bus.png'/>
+          <img src={process.env.PUBLIC_URL+'/image/ico_bus.png'}/>
           <p>4000번 : 테크노육교 하차<br/>101, 330, 350, 390, 4000번 : 차그룹컨소시엄 하차</p>
         </div>
       </div>

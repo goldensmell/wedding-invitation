@@ -1,11 +1,12 @@
 import React from 'react'
 import './Intro.css'
+import img_wedding from "../images/wedding.jpg"
 
 export default function Intro() {
   return (
     <div className='intro'
         style={{
-            backgroundImage: `url("/image/wadding.jpg")`,
+            backgroundImage: `url(${img_wedding})`,
             backgroundPosition: "top center",
             backgroundSize: "cover"
         }}>
