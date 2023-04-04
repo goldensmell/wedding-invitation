@@ -1,14 +1,15 @@
 import React from 'react'
 import './Intro_white.css'
-import img_wedding from "../images/wedding.jpg"
+import img_intro from "../images/intro_image.jpg"
 import img_and from "../images/and.png"
 
 export default function Intro() {
   return (
     <div className='intro'>
-        <img className='intro-image' src={img_wedding}/>
         
-        <div className='intro-title'>
+        <img className='intro-image' src={img_intro}/>
+
+        <div className='intro-names'>
             <p className='name'> 홍길동</p>
             <img className='and-image' src={img_and}/>
             <p className='name'> 홍길동</p>

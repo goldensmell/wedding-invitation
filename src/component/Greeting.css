@@ -12,11 +12,14 @@
   font-weight: bold;
 }
 
-.greeting-contents {
+.greeting-message {
   padding-top: 20px;
   text-align: center;
   font-size: 17px;
-  background: linear-gradient(to right top, #4776e6, #8e54e9);
-  color: transparent;
-  -webkit-background-clip: text;
+}
+
+.greeting-family {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 17px;
 }
