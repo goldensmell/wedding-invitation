@@ -10,9 +10,10 @@
   .intro-image {
       width: 100%;
       max-width: 768px;
+      max-height: 60%;
       height: auto;
       overflow: hidden;
-      object-fit: contain;
+      object-fit: cover;
   }
 
   .intro-names {
@@ -48,6 +49,9 @@
   }
 
   @media (min-width:768px) {
+    .intro-image {
+      object-fit: contain;
+    }
     .intro-names {
       margin-top: 50px;
     }
@@ -69,6 +73,9 @@
   }
 
   @media (min-width:1024px) {
+    .intro-image {
+      object-fit: contain;
+    }
     .intro-names {
       margin-top: 60px;
     }
