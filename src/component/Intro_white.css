@@ -13,6 +13,8 @@
       width: 100%;
       max-width: 768px;
       max-height: 60%;
+      height: -webkit-fill-available;
+      height: fill-available;
       height: auto;
       overflow: hidden;
       object-fit: cover;
@@ -52,17 +54,20 @@
 
   @media (min-width:768px) {
     .intro-image {
+      max-height: 70vh;
+      height: -webkit-fill-available;
+      height: fill-available;
       object-fit: contain;
     }
     .intro-names {
       margin-top: 50px;
     }
     .name {
-      font-size: 35px;
+      font-size: 33px;
       padding-left: 10px;
     }
     .and-image {
-      width: 30px;
+      width: 26px;
     }
     .intro-contents {
       margin-top: 10px;
@@ -76,23 +81,26 @@
 
   @media (min-width:1024px) {
     .intro-image {
+      max-height: 70vh;
+      height: -webkit-fill-available;
+      height: fill-available;
       object-fit: contain;
     }
     .intro-names {
-      margin-top: 60px;
+      margin-top: 40px;
     }
     .name {
-      font-size: 40px;
+      font-size: 38px;
     }
     .and-image {
       width: 33px;
     }
     .intro-contents {
-      margin-top: 40px;
-      margin-bottom: 90px;
+      margin-top: 15px;
+      margin-bottom: 100px;
     }
     .intro-contents p {
-      font-size: 25px;
+      font-size: 23px;
       margin: 10px 0;
     }
   }

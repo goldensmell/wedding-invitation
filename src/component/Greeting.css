@@ -1,25 +1,105 @@
 .greeting {
     width: 100vw;
-    height: 500px;
+    max-width: 768px;
+    margin-bottom: 70px;
     text-align: center;
+    position: relative;
+}
+
+/* .greeting-outline {
+  position: absolute;
+  width: calc(100% - 20px);
+  height: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #8e54e9;
+  border-image: linear-gradient(to right top, #4776e6, #8e54e9);
+  border-image-slice: 1;
+  box-shadow: 0 0 0 7px rgb(142 84 233/4%);
+} */
+
+.greeting-flower {
+  width: 80px;
+  /* position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  border-radius: 50%; */
 }
 
 .greeting-title {
-  font-size:40px;
+  font-size:25px;
+  margin-top: 10px;
+  letter-spacing: 0.2em;
+  /* 배경 그라데이션 히든 처리 */
   background: linear-gradient(to right top, #4776e6, #8e54e9);
   color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;
+  /* 텍스트 그림자 */
+  text-shadow: 2px 2px 20px#8e54e9;
 }
 
 .greeting-message {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  line-height: 1.4rem;
   text-align: center;
-  font-size: 17px;
+
+  /* 텍스트 그림자 #6601FF */
+  text-shadow: 2px 2px 25px#8e54e9; 
+  
 }
 
 .greeting-family {
-  padding-top: 30px;
-  text-align: center;
+  margin: 0 20px;
   font-size: 17px;
+  
+  border-top: 1px solid #8e54e9;
+  border-bottom: 1px solid #8e54e9;
+} 
+
+@media (min-width:768px)  {
+  .greeting-flower {
+    width: 90px;
+  }
+
+  .greeting-title {
+    font-size:30px;
+    margin-top: 18px;
+  }
+
+  .greeting-message {
+    font-size:18px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  .greeting-family {
+    margin: 0 20px;
+    font-size: 20px;
+  } 
+
+}
+
+@media (min-width:1024px) {
+  .greeting-flower {
+    width: 90px;
+  }
+
+  .greeting-title {
+    font-size:30px;
+    margin-top: 18px;
+  }
+
+  .greeting-message {
+    font-size:18px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  .greeting-family {
+    margin: 0 20px;
+    font-size: 20px;
+  } 
 }
