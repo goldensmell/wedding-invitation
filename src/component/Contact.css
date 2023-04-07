@@ -6,7 +6,7 @@
   }
   
   /* 기본 버튼 설정 */
-  button {
+  .contact-button {
    
       background: var(--button-bg-color);
       color: var(--button-color);
@@ -27,13 +27,13 @@
       transition: 0.5s;
    }
    
-  button:active,
-  button:hover,
-  button:focus {
+  .contact-button:active,
+  .contact-button:hover,
+  .contact-button:focus {
     background: var(--button-hover-bg-color);
     outline: 0;
   }
-  button:disabled {
+  .contact-button:disabled {
     opacity: 0.5;
   }
   

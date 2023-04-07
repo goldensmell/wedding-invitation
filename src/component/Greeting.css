@@ -1,9 +1,15 @@
 .greeting {
     width: 100vw;
     max-width: 768px;
-    margin-bottom: 70px;
+    
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: fill-available;
+
     text-align: center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* .greeting-outline {
@@ -42,8 +48,8 @@
 
 .greeting-message {
   padding-top: 10px;
-  padding-bottom: 40px;
-  line-height: 1.4rem;
+  padding-bottom: 30px;
+  line-height: 1.3rem;
   text-align: center;
 
   /* 텍스트 그림자 #6601FF */
@@ -52,12 +58,17 @@
 }
 
 .greeting-family {
-  margin: 0 20px;
+  width: 80%;
   font-size: 17px;
   
   border-top: 1px solid #8e54e9;
   border-bottom: 1px solid #8e54e9;
 } 
+
+.greeting-calendar {
+  margin-top: 30px;
+  max-width: 768px;
+}
 
 @media (min-width:768px)  {
   .greeting-flower {
