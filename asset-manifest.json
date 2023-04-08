@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.f300b99a.css",
-    "main.js": "/wedding-invitation/static/js/main.6c5ce032.js",
+    "main.css": "/wedding-invitation/static/css/main.cd1ffab2.css",
+    "main.js": "/wedding-invitation/static/js/main.1f37fb81.js",
     "static/js/787.d0f4f082.chunk.js": "/wedding-invitation/static/js/787.d0f4f082.chunk.js",
     "static/media/greeting-flower.png": "/wedding-invitation/static/media/greeting-flower.228a6d970b957f33bb5d.png",
     "static/media/NanumSquareRoundR.ttf": "/wedding-invitation/static/media/NanumSquareRoundR.f062cb52be3e9829834c.ttf",
     "static/media/NanumSquareRoundB.ttf": "/wedding-invitation/static/media/NanumSquareRoundB.8ab117fc37409bd022e5.ttf",
     "static/media/NanumSquareRoundEB.ttf": "/wedding-invitation/static/media/NanumSquareRoundEB.ef4043133d5b2d0febb4.ttf",
     "static/media/NanumSquareRoundL.ttf": "/wedding-invitation/static/media/NanumSquareRoundL.34b53f3711c695552994.ttf",
+    "static/media/gallary-flower.png": "/wedding-invitation/static/media/gallary-flower.e5fe62d180c9b63f0666.png",
     "static/media/intro_image.jpg": "/wedding-invitation/static/media/intro_image.ef31a1b3d4098691f73b.jpg",
     "index.html": "/wedding-invitation/index.html",
-    "main.f300b99a.css.map": "/wedding-invitation/static/css/main.f300b99a.css.map",
-    "main.6c5ce032.js.map": "/wedding-invitation/static/js/main.6c5ce032.js.map",
+    "main.cd1ffab2.css.map": "/wedding-invitation/static/css/main.cd1ffab2.css.map",
+    "main.1f37fb81.js.map": "/wedding-invitation/static/js/main.1f37fb81.js.map",
     "787.d0f4f082.chunk.js.map": "/wedding-invitation/static/js/787.d0f4f082.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f300b99a.css",
-    "static/js/main.6c5ce032.js"
+    "static/css/main.cd1ffab2.css",
+    "static/js/main.1f37fb81.js"
   ]
 }
