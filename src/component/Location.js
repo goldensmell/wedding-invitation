@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import { isMobile } from 'react-device-detect';
 import './Location.css';
+import img_location from '../images/location_flower.png'
 
 export default function Location() {
 
@@ -44,8 +45,11 @@ export default function Location() {
 
   return (
     <div className='location'> 
-      <p>찾아오시는 길</p>
-      <p>성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
+      
+      <img className='location-flower' src={img_location}></img>
+      <p className='location-title'>LOCATION</p>
+      <p className='location-adress'>성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
+      
       <div className='location_map' id="map"/>
       <div className='location_apps'>
         <div className='location_app location_app_naver' onClick={()=> {

@@ -22,7 +22,6 @@ export default function Pictures() {
       <img className='pictures-flower' src={img_flower}></img>
       <p className='pictures-title'>GALLAERY</p>
       <div className='pictures-images'>
-      
         <Box sx={{ overflowY: 'scroll' }}>
           <ImageList variant="masonry" cols={3} >
             {itemData.map((item) => (

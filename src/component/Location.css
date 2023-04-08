@@ -1,27 +1,58 @@
 
 .location {
-    margin-top: 50px;
-    width: 100vw;
-    height: 100vh;
-  }
-  .location p {
-    text-align: center;
-  }
-  .location_map {
     width: 100vw;
     max-width: 768px;
-    height: 40vh;
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: fill-available;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .location-flower {
+    width: 70px;
+  }
+  
+  .location-title {
+    font-size:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2em;
+    /* 배경 그라데이션 히든 처리 */
+    background: linear-gradient(to right top, #41295a, #2f0743);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    /* 텍스트 그림자 */
+    text-shadow: 2px 2px 20px#41295a;
+  }
+
+  .location-adress {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+  
+    /* 텍스트 그림자 #6601FF */
+    text-shadow: 2px 2px 25px#41295a; 
+  }
+
+  .location_map {
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
     margin: auto;
   }
 
   .location_apps {
-    width: 100%;
+    width: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
     margin:0 auto;
     height: 100px;
-    max-width: 768px;
   }
 
   .location_app {
@@ -30,7 +61,11 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    border-color: black;
+    border: 1px solid #8e54e9;
+    border-radius: 50%;
+    border-image: linear-gradient(to right top, #4776e6, #8e54e9);
+    border-image-slice: 1;
+    box-shadow: 0 0 0 7px rgb(142 84 233/4%);
   }
   .location_app img{
     width: 40px;
