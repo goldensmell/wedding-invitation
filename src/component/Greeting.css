@@ -25,7 +25,7 @@
 } */
 
 .greeting-flower {
-  width: 80px;
+  width: 60px;
   /* position: absolute;
   z-index: -1;
   left: 50%;
@@ -65,14 +65,14 @@
   border-bottom: 1px solid #8e54e9;
 } 
 
-.greeting-calendar {
+/* .greeting-calendar {
   margin-top: 30px;
   max-width: 768px;
-}
+} */
 
 @media (min-width:768px)  {
   .greeting-flower {
-    width: 90px;
+    width: 70px;
   }
 
   .greeting-title {
@@ -95,7 +95,7 @@
 
 @media (min-width:1024px) {
   .greeting-flower {
-    width: 90px;
+    width: 80px;
   }
 
   .greeting-title {

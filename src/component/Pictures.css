@@ -2,5 +2,56 @@
     margin-top: 50px;
     background-color: #fafafa;
     width: 100vw;
-    
+    max-width: 768px;
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: fill-available;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pictures-images {
+    padding: 10px;
+    width:100%;
+    height: auto;
+  }
+
+  .pictures-flower {
+    width: 70px;
+  }
+  
+  .pictures-title {
+    font-size:25px;
+    margin-top: 10px;
+    letter-spacing: 0.2em;
+    /* 배경 그라데이션 히든 처리 */
+    background: linear-gradient(to right top, #8e2de2, #4a00e0);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    /* 텍스트 그림자 */
+    text-shadow: 2px 2px 20px#4a00e0;
+  }
+
+  @media (min-width:768px) {
+    .pictures-flower {
+      width: 70px;
+    }
+    .pictures-title {
+      font-size:30px;
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width:1024px) {
+    .pictures-flower {
+      width: 80px;
+    }
+    .pictures-title {
+      font-size:30px;
+      margin-top: 10px;
+    }
   }

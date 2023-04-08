@@ -1,10 +1,10 @@
 import React from 'react'
 import './Greeting.css'
 import flower from '../images/greeting-flower.png'
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
-import dayjs from 'dayjs';
+// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+// import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
+// import dayjs from 'dayjs';
 
 
 export default function Greeting() {
@@ -27,11 +27,11 @@ export default function Greeting() {
         <p>홍길동 • 홍길동의 &nbsp;&nbsp;&nbsp;&nbsp;딸 &nbsp;&nbsp;홍길동</p>
       </div> 
 
-      <div className='greeting-calendar'>
+      {/* <div className='greeting-calendar'>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <DateCalendar defaultValue={dayjs('2023-08-26')} readOnly />
         </LocalizationProvider>
-      </div>
+      </div> */}
     </div>
   )
 }
