@@ -36,13 +36,13 @@
     text-align: center;
   
     /* 텍스트 그림자 #6601FF */
-    text-shadow: 2px 2px 25px#41295a; 
+    text-shadow: 2px 2px 20px#624284; 
   }
 
   .location_map {
     width: 80%;
     max-width: 600px;
-    height: 300px;
+    height: 250px;
     margin: auto;
   }
 
@@ -56,38 +56,82 @@
   }
 
   .location_app {
+    width: 65px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #8e54e9;
-    border-radius: 50%;
-    border-image: linear-gradient(to right top, #4776e6, #8e54e9);
-    border-image-slice: 1;
-    box-shadow: 0 0 0 7px rgb(142 84 233/4%);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #624284;
   }
-  .location_app img{
-    width: 40px;
-    height: 40px;
-    margin:auto;
+  .location_app:active,
+  .location_app:hover,
+  .location_app:focus {
+    background: rgba(98, 66, 132, 60%);
+    outline: 0;
+  }
 
+  .location_app img{
+    width: 35px;
+    height: 35px;
+    margin:auto;
   }
   .location_app p{
     text-align: center;
     font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
 
-  .location_come {
-    display: flex;
-    margin-left: 10px;
-    align-items: center;
+  .location_comes {
+    margin-top: 20px;
   }
-  .location_come img{
-    width: 30px;
-    height: 30px;
+
+  @media (min-width:768px) {
+    .location_apps {
+      width: 500px;
+    }
+
+    .location_map {
+      height: 350px;
+    }
+    .location_app {
+      width: 65px;
+    }
+    .location_app img{
+      width: 35px;
+      height: 35px;
+    }
+    .location_app p{
+      font-size: 13px;
+    }
+
+    .location_comes {
+      margin-top: 30px;
+    }
+    
   }
-  .location_come p {
-    padding-left: 10px;
-    text-align: left;
+  @media (min-width:1024px) {
+    .location_apps {
+      width: 500px;
+    }
+
+    .location_map {
+      height: 380px;
+    }
+    .location_app {
+      width: 70px;
+    }
+    .location_app img{
+      width: 40px;
+      height: 40px;
+    }
+    .location_app p{
+      font-size: 14px;
+    }
+
+    .location_comes {
+      margin-top: 35px;
+    }
   }

@@ -2,6 +2,15 @@ import React, {useEffect} from 'react'
 import { isMobile } from 'react-device-detect';
 import './Location.css';
 import img_location from '../images/location_flower.png'
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Avatar from '@mui/material/Avatar';
+import DirectionsSubwayIcon from '@mui/icons-material/DirectionsSubway';
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import Divider from '@mui/material/Divider';
+import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 
 export default function Location() {
 
@@ -73,19 +82,38 @@ export default function Location() {
           <p>T맵</p>
         </div>
       </div>
+
+      
+
       <div className='location_comes'>
-        <div className='location_come location_come_subway'>
-          <img src={process.env.PUBLIC_URL+'/image/ico_subway.png'}/>
-          <p>신분당선 : 판교역 1번 출구 직도보 6분 소요<br/> [셔틀버스 10분간격 운행]</p>
-        </div>
-        <div className='location_come location_come_car'>
-          <img src={process.env.PUBLIC_URL+'/image/ico_car.png'}/>
-          <p>경부고속도로 판교IC(톨게이트) 차출 후 좌회전,<br/>약 700m 직진 - 사거리에서 우회전 (SK 주유소 뒤)<br/> 주차 2시간 무료</p>
-        </div>
-        <div className='location_come location_come_bus'>
-          <img src={process.env.PUBLIC_URL+'/image/ico_bus.png'}/>
-          <p>4000번 : 테크노육교 하차<br/>101, 330, 350, 390, 4000번 : 차그룹컨소시엄 하차</p>
-        </div>
+        <List sx={{ width: '100%', maxWidth: 768, bgcolor: 'background.paper' }}>
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <DirectionsSubwayIcon />
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary="신분당선" secondary="판교역 1번 출구 직도보 6분 소요 [셔틀버스 10분간격 운행]" />
+        </ListItem>
+        <Divider variant="inset" component="li" />
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <DirectionsCarIcon/>
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary="경부고속도로 판교IC(톨게이트)" secondary="차출 후 좌회전,약 700m 직진 - 사거리에서 우회전 (SK 주유소 뒤) [주차 2시간 무료]" />
+        </ListItem>
+        <Divider variant="inset" component="li" />
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <DirectionsBusIcon/>
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary="차그룹컨소시엄 하자" secondary="101, 330, 350, 390, 4000" />
+        </ListItem>
+      </List>
       </div>
     </div>
   )

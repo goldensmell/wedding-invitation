@@ -39,11 +39,37 @@
   
   /* 콘텐츠 */
   .contacts {
-      max-width:780px;
-      display:flex;
-      flex-direction:column;
-      margin: auto;
+    width: 100vw;
+    max-width: 768px;
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: fill-available;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
+
+  .contacs-flower {
+    margin-top: 30px;
+    width: 80px;
+  }
+  
+  .contacts-title {
+    font-size:25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2em;
+    /* 배경 그라데이션 히든 처리 */
+    background: linear-gradient(to right top, #673ab7, #512da8);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    /* 텍스트 그림자 */
+    text-shadow: 2px 2px 25px#673ab7;
+  }
+
   .contacts p {
       text-align:center;
   }

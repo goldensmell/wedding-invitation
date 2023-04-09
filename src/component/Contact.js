@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import './Contact.css'
+import './Contact.css';
+import img_contact from '../images/contacts-flower.png';
 
 export default function Contact() {
 
@@ -16,7 +17,9 @@ export default function Contact() {
 
   return (
     <div className="contacts">
-			<p>마음 보내실 곳</p>
+		<img className='contacs-flower' src={img_contact}></img>
+     	 <p className='contacts-title'>마음 보내실 곳</p>
+
 			<div className="contact contact_man">
 				<button className="contact_show contact-button" onClick={handleManShow}>
 					신랑측 계좌번호
