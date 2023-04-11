@@ -11,6 +11,7 @@ import DirectionsSubwayIcon from '@mui/icons-material/DirectionsSubway';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import Divider from '@mui/material/Divider';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
+import LocalParkingIcon from '@mui/icons-material/LocalParking';
 
 export default function Location() {
 
@@ -93,16 +94,7 @@ export default function Location() {
               <DirectionsSubwayIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary="신분당선" secondary="판교역 1번 출구 직도보 6분 소요 [셔틀버스 10분간격 운행]" />
-        </ListItem>
-        <Divider variant="inset" component="li" />
-        <ListItem>
-          <ListItemAvatar>
-            <Avatar>
-              <DirectionsCarIcon/>
-            </Avatar>
-          </ListItemAvatar>
-          <ListItemText primary="경부고속도로 판교IC(톨게이트)" secondary="차출 후 좌회전,약 700m 직진 - 사거리에서 우회전 (SK 주유소 뒤) [주차 2시간 무료]" />
+          <ListItemText primary="신분당선" secondary="판교역 1번 출구 직진 도보 6분" />
         </ListItem>
         <Divider variant="inset" component="li" />
         <ListItem>
@@ -111,7 +103,25 @@ export default function Location() {
               <DirectionsBusIcon/>
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary="차그룹컨소시엄 하자" secondary="101, 330, 350, 390, 4000" />
+          <ListItemText primary="차그룹컨소시엄 하자 후 도보 3분" secondary="101, 330, 350, 390, 4000" />
+        </ListItem>
+        <Divider variant="inset" component="li" />
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <DirectionsCarIcon/>
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary="경부고속도로 판교IC(톨게이트)" secondary="차출 후 좌회전,약 700m 직진 - 사거리에서 우회전 (SK 주유소 뒤)" />
+        </ListItem>
+        <Divider variant="inset" component="li" />
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <LocalParkingIcon/>
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary="주차" secondary="건물 내 2시간 무료" />
         </ListItem>
       </List>
       </div>

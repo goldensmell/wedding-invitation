@@ -1,11 +1,9 @@
-/* 기본 변수 선언 */
-:root {
+  /* 기본 변수 선언 */
+  :root {
     --button-color: #ffffff;
     --button-bg-color: #0d6efd;
     --button-hover-bg-color: #025ce2;
   }
-  
-  /* 기본 버튼 설정 */
   .contact-button {
    
       background: var(--button-bg-color);
@@ -30,12 +28,11 @@
   .contact-button:active,
   .contact-button:hover,
   .contact-button:focus {
-    background: var(--button-hover-bg-color);
     outline: 0;
   }
   .contact-button:disabled {
     opacity: 0.5;
-  }
+  } 
   
   /* 콘텐츠 */
   .contacts {
@@ -44,6 +41,7 @@
     height: 100vh;
     height: -webkit-fill-available;
     height: fill-available;
+    margin-bottom: 50px;
 
     text-align: center;
     display: flex;
@@ -53,7 +51,7 @@
 
   .contacs-flower {
     margin-top: 30px;
-    width: 80px;
+    width: 70px;
   }
   
   .contacts-title {
@@ -69,16 +67,12 @@
     /* 텍스트 그림자 */
     text-shadow: 2px 2px 25px#673ab7;
   }
-
-  .contacts p {
-      text-align:center;
-  }
   
   .contact {
       width:100%;
       display:flex;
       flex-direction:column;
-      margin: auto;
+      margin-top: 30px;
   }
   
   .contact_show {
@@ -88,25 +82,46 @@
       border-radius: 10px;
   }
 
+  .contact_show {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(103, 58, 183, 60%);
+    box-shadow: 2px 2px 2px #673ab7;
+  }
+  .contact_show:active,
+  .contact_show:hover,
+  .contact_show:focus {
+    background: rgba(103, 58, 183, 90%);
+  }
+
   .acc_none {
     display: none;
   }
-              
-  .acc {	
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin:  auto;
-      height: 55px;
-      padding: 5px 20px;
+
+  .accs {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
   }
 
-  .acc p {
-    text-align: left;
+  .contacts-thanks {
+    width: 100vh;
+
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .acc button {
-    
-    height: 40px;
+  .contacts-thanks-message {
+   margin-top: 30px; 
+   font-size:30px;
+   margin-bottom: 10px;
+   letter-spacing: 0.4em;
+   /* 배경 그라데이션 히든 처리 */
+   color: #8e8e8e;
+   
   }
