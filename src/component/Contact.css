@@ -1,13 +1,5 @@
   /* 기본 변수 선언 */
-  :root {
-    --button-color: #ffffff;
-    --button-bg-color: #0d6efd;
-    --button-hover-bg-color: #025ce2;
-  }
   .contact-button {
-   
-      background: var(--button-bg-color);
-      color: var(--button-color);
 
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -36,6 +28,7 @@
   
   /* 콘텐츠 */
   .contacts {
+    margin-top: 50px;
     width: 100vw;
     max-width: 768px;
     height: 100vh;
@@ -87,13 +80,14 @@
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(103, 58, 183, 60%);
+    background-color: white;
+    /* background-color: rgba(103, 58, 183, 60%); */
     box-shadow: 2px 2px 2px #673ab7;
   }
   .contact_show:active,
   .contact_show:hover,
   .contact_show:focus {
-    background: rgba(103, 58, 183, 90%);
+    background: rgba(103, 58, 183, 60%);
   }
 
   .acc_none {
@@ -106,7 +100,7 @@
     align-items: center;
   }
 
-  .contacts-thanks {
+  /* .contacts-thanks {
     width: 100%;
 
     margin-top: 50px;
@@ -121,7 +115,6 @@
    font-size:30px;
    margin-bottom: 10px;
    letter-spacing: 0.4em;
-   /* 배경 그라데이션 히든 처리 */
    color: #8e8e8e;
    
-  }
+  } */

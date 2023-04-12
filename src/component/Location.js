@@ -56,7 +56,7 @@ export default function Location() {
   return (
     <div className='location'> 
       
-      <img className='location-flower' src={img_location}></img>
+      {/* <img className='location-flower' src={img_location}></img> */}
       <p className='location-title'>LOCATION</p>
       <p className='location-adress'>성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
       

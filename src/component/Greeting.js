@@ -12,7 +12,7 @@ export default function Greeting() {
   return (
     <div className='greeting'>
       {/* <div className='greeting-outline'></div> */}
-      <img className='greeting-flower' src={flower}></img>
+      {/* <img className='greeting-flower' src={flower}></img> */}
       <p className='greeting-title'>INVITATION</p>
       <div className='greeting-message'>
           <p>서로가 마주보며 다져온 사랑을 </p>

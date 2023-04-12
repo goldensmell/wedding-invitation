@@ -19,7 +19,7 @@ export default function Pictures() {
   return (
     <div className='pictures'>
 
-      <img className='pictures-flower' src={img_flower}></img>
+      {/* <img className='pictures-flower' src={img_flower}></img> */}
       <p className='pictures-title'>GALLAERY</p>
       <div className='pictures-images'>
         <Box sx={{ overflowY: 'scroll' }}>

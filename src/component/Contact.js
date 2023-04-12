@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <div className="contacts">
-		<img className='contacs-flower' src={img_contact}></img>
+		{/* <img className='contacs-flower' src={img_contact}></img> */}
      	 <p className='contacts-title'>마음 보내실 곳</p>
 
 		<div className="contact contact_man">
@@ -78,10 +78,10 @@ export default function Contact() {
 			
 		</div>
 		
-		<div className='contacts-thanks'>
+		{/* <div className='contacts-thanks'>
 			<Divider sx={{width:'100%'}}/>
 			<p className='contacts-thanks-message'>감사합니다.</p>
-		</div>
+		</div> */}
 	</div>
   )
 }
