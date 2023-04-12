@@ -2,9 +2,10 @@
     width: 100vw;
     max-width: 768px;
     
-    height: 100vh;
+    height: 600px;
+    /* height: 100vh;
     height: -webkit-fill-available;
-    height: fill-available;
+    height: fill-available; */
 
     text-align: center;
     display: flex;
