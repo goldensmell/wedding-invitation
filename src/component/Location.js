@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import { isMobile } from 'react-device-detect';
 import './Location.css';
-import img_location from '../images/location_flower.png'
+// import img_location from '../images/location_flower.png'
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -12,10 +12,18 @@ import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import Divider from '@mui/material/Divider';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import LocalParkingIcon from '@mui/icons-material/LocalParking';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Location() {
 
   useEffect(() => {
+    AOS.init({
+      offset: 30,
+      delay: 200,
+      duration: 1000
+    });
+
     let map = null;
     let marker = null;
     const initMap = () => {
@@ -57,11 +65,12 @@ export default function Location() {
     <div className='location'> 
       
       {/* <img className='location-flower' src={img_location}></img> */}
-      <p className='location-title'>LOCATION</p>
-      <p className='location-adress'>성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
+      <p className='location-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">LOCATION</p>
+      <p className='location-adress' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
       
-      <div className='location_map' id="map"/>
-      <div className='location_apps'>
+      <div className='location_map' id="map" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"/>
+      <div className='location_apps' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <div className='location_app location_app_naver' onClick={()=> {
           moveNaverMapApp();
         }}>
@@ -86,7 +95,7 @@ export default function Location() {
 
       
 
-      <div className='location_comes'>
+      <div className='location_comes' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <List sx={{ width: '100%', maxWidth: 768, bgcolor: 'background.paper' }}>
         <ListItem>
           <ListItemAvatar>

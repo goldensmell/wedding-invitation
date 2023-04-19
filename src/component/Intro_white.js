@@ -7,7 +7,15 @@ export default function Intro() {
   return (
     <div className='intro'>
         
-        <img className='intro-image' src={img_intro}/>
+        <div className='intro-image' 
+             style={{
+                      backgroundImage: `url(${img_intro})`,
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "contain",
+                      backgroundAttachment: "fixed",
+                      backgroundPosition: "top center"
+        }}></div>
+        {/* <img className='intro-image' src={img_intro}/> */}
 
         <div className='intro-names'>
             <p className='name'> 홍길동</p>

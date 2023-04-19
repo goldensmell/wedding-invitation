@@ -1,13 +1,23 @@
-import React, {useState} from 'react'
+import React, {useEffect,useState} from 'react'
 import './Pictures.css'
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import img_flower from "../images/gallary-flower.png";
+// import img_flower from "../images/gallary-flower.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Pictures() {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      delay: 200,
+      duration: 1000
+    });
+  });
   
   const [index, setIndex] = useState(-1);
 
@@ -20,7 +30,7 @@ export default function Pictures() {
     <div className='pictures'>
 
       {/* <img className='pictures-flower' src={img_flower}></img> */}
-      <p className='pictures-title'>GALLAERY</p>
+      <p className='pictures-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">GALLAERY</p>
       <div className='pictures-images'>
         <Box sx={{ overflowY: 'scroll' }}>
           <ImageList variant="masonry" cols={3} >

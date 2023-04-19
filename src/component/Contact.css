@@ -1,37 +1,10 @@
-  /* 기본 변수 선언 */
-  .contact-button {
 
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      
-      border: none;
-      border-radius: 4px;
-      
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      cursor: pointer;
-      
-      text-align: center;
-      text-decoration: none;
-
-      transition: 0.5s;
-   }
-   
-  .contact-button:active,
-  .contact-button:hover,
-  .contact-button:focus {
-    outline: 0;
-  }
-  .contact-button:disabled {
-    opacity: 0.5;
-  } 
-  
   /* 콘텐츠 */
   .contacts {
     margin-top: 50px;
     width: 100vw;
     max-width: 768px;
-    height: 100vh;
+    height: 60vh;
     height: -webkit-fill-available;
     height: fill-available;
     margin-bottom: 50px;
@@ -40,6 +13,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    background-color: #fafafa;
   }
 
   .contacs-flower {
@@ -64,31 +39,9 @@
   .contact {
       width:100%;
       display:flex;
+      align-items: center;
       flex-direction:column;
       margin-top: 30px;
-  }
-  
-  .contact_show {
-      margin:20px auto;
-      width: 200px;
-      height: 50px;
-      border-radius: 10px;
-  }
-
-  .contact_show {
-    width: 150px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-    color: #0e0e0e;
-    /* background-color: rgba(103, 58, 183, 60%); */
-    box-shadow: 2px 2px 2px #673ab7;
-  }
-  .contact_show:active,
-  .contact_show:hover,
-  .contact_show:focus {
-    background: rgba(103, 58, 183, 60%);
   }
 
   .acc_none {
@@ -96,9 +49,14 @@
   }
 
   .accs {
+    width: 100%;
     display: flex;
     flex-direction:column;
     align-items: center;
+  }
+
+  .accs_woman {
+    padding-bottom: 30px;
   }
 
   /* .contacts-thanks {
