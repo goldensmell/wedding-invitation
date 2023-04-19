@@ -24,8 +24,8 @@ export default function Contact() {
 
 	useEffect(() => {
 		AOS.init({
-		  offset: 100,
-		  delay: 200,
+		  offset: 150,
+		  delay: 300,
 		  duration: 1000
 		});
 	  });
