@@ -4,9 +4,6 @@
     margin-top: 50px;
     width: 100vw;
     max-width: 768px;
-    height: 60vh;
-    height: -webkit-fill-available;
-    height: fill-available;
     margin-bottom: 50px;
 
     text-align: center;
@@ -55,7 +52,7 @@
     align-items: center;
   }
 
-  .accs_woman {
+  .contact_woman {
     padding-bottom: 30px;
   }
 

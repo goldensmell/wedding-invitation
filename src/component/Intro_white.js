@@ -12,7 +12,7 @@ export default function Intro() {
                       backgroundImage: `url(${img_intro})`,
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "contain",
-                      backgroundAttachment: "fixed",
+                      // backgroundAttachment: "fixed",
                       backgroundPosition: "top center"
         }}></div>
         {/* <img className='intro-image' src={img_intro}/> */}
