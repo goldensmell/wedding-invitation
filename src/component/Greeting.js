@@ -11,20 +11,20 @@ import "aos/dist/aos.css";
 
 export default function Greeting() {
 
-  useEffect(() => {
-    AOS.init({
-      offset: 30,
-      delay: 200,
-      duration: 1000
-    });
-  });
+  // useEffect(() => {
+  //   AOS.init({
+  //     offset: 30,
+  //     delay: 200,
+  //     duration: 1000
+  //   });
+  // });
 
   return (
     <div className='greeting'>
       {/* <div className='greeting-outline'></div> */}
       {/* <img className='greeting-flower' src={flower}></img> */}
-      <p className='greeting-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">INVITATION</p>
-      <div className='greeting-message' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <p className='greeting-title'> {/*data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"*/}INVITATION</p>
+      <div className='greeting-message'> {/*data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"*/}
           <p>서로가 마주보며 다져온 사랑을 </p>
           <p>이제 함께 한 곳을 바라보며 걸어갈 수 있는</p>
           <p>큰 사랑으로 키우고자 합니다.</p>
@@ -32,7 +32,7 @@ export default function Greeting() {
           <p>사랑의 이름으로 지켜나갈 수 있게</p>
           <p>앞날을 축복해 주시면 감사하겠습니다.</p>
       </div>
-      <div className='greeting-family' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <div className='greeting-family'> {/*data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">*/}
         <p>홍길동 • 홍길동의 아들 &nbsp;&nbsp;홍길동</p>
         <p>홍길동 • 홍길동의 &nbsp;&nbsp;&nbsp;&nbsp;딸 &nbsp;&nbsp;홍길동</p>
       </div> 
