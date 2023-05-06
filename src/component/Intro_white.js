@@ -7,15 +7,34 @@ export default function Intro() {
   return (
     <div className='intro'>
         
-        <div className='intro-image' 
-             style={{
-                      backgroundImage: `url(${img_intro})`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "contain",
-                      // backgroundAttachment: "fixed",
-                      backgroundPosition: "top center"
-        }}></div>
-        {/* <img className='intro-image' src={img_intro}/> */}
+        <div className='intro-bg-first'>
+          <div className='intro-bg-wrap'>
+            <div className='intro-image' 
+                style={{
+                          backgroundImage: `url(${img_intro})`,
+                          backgroundRepeat: "no-repeat",
+                          backgroundSize: "contain",
+                          // backgroundAttachment: "fixed",
+                          position: "fixed",
+                          width: "100%",
+                          height: "100%",
+                          backgroundPosition: "top center"
+            }}></div>
+            {/* <img className='intro-image' src={img_intro}/> */}
+          </div>
+        </div>
+        <div className='intro-bg-second'>
+          <div className='intro-bg-wrap'>
+            <div className='intro-white-bg'style={{
+                          backgroundColor: "white",
+                          // backgroundAttachment: "fixed",
+                          position: "fixed",
+                          width: "100%",
+                          height: "100%"
+            }}>
+            </div>
+          </div>
+        </div>
 
         <div className='intro-names'>
             <p className='name'> 홍길동</p>
