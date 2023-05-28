@@ -28,13 +28,13 @@
     font-size:25px;
     margin-top: 10px;
     letter-spacing: 0.2em;
-    /* 배경 그라데이션 히든 처리 */
+    /* 배경 그라데이션 히든 처리 
     background: linear-gradient(to right top, #8e2de2, #4a00e0);
     color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;*/
     font-weight: bold;
-    /* 텍스트 그림자 */
-    text-shadow: 2px 2px 20px#4a00e0;
+    /* 텍스트 그림자 
+    text-shadow: 2px 2px 20px#4a00e0;*/
   }
 
   @media (min-width:768px) {

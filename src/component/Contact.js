@@ -63,11 +63,11 @@ export default function Contact() {
      	 <p className='contacts-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 마음 보내실 곳</p>
 
 		<div className="contact contact_man">
-			<Button sx={{ width: '100%', maxWidth: 500}} variant="contained" color="primary" onClick={handleManShow}>
+			<Button sx={{ width: '90%', maxWidth: 500}} variant="contained" color="primary" onClick={handleManShow}>
 				신랑측 계좌번호
 			</Button>
 			<div className={isManShow ? "accs accs_man" : "acc_none"}> 
-				<List sx={{ width: '100%', maxWidth: 500, bgcolor: 'background.paper', borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
+				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
 					{manAccs.map(acc => (
 						<ListItem key={acc.num}>
 							<ListItemText primary={acc.name} secondary={acc.acc_name + " : " + acc.acc_num_divider} />	
@@ -81,12 +81,12 @@ export default function Contact() {
 			</div>
 		</div>
 		<div className="contact contact_woman">
-			<Button sx={{ width: '100%', maxWidth: 500}} variant="contained" color="primary" onClick={handleWomanShow}>
+			<Button sx={{ width: '90%', maxWidth: 500}} variant="contained" color="primary" onClick={handleWomanShow}>
 				신부측 계좌번호
 			</Button>
 			
 			<div className={isWomanShow ? "accs accs_woman" : "acc_none"}> 
-				<List sx={{ width: '100%', maxWidth: 500, bgcolor: 'background.paper', borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
+				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
 					{womanAccs.map(acc => (
 						<ListItem key={acc.num}>
 							<ListItemText primary={acc.name} secondary={acc.acc_name + " : " + acc.acc_num_divider} />	
@@ -111,38 +111,38 @@ export default function Contact() {
 const manAccs = [
 	{
 		num: 0,
-		name : "홍길동",
+		name : "임종국",
 		acc_name: '국민은행',
 		acc_num_divider: '111111-11-111000',
 		acc_num: '11111111111001'
 	  },
 	  {
 		num: 1,
-		name : "홍길동",
-		acc_name: '국민은행',
-		acc_num_divider: '111111-11-111000',
-		acc_num: '11111111111002'
+		name : "길금숙",
+		acc_name: '우체국',
+		acc_num_divider: '301408-02-160170',
+		acc_num: '30140802160170'
 	  },
 	  {
 		num: 2,
-		name : "홍길동",
-		acc_name: '국민은행',
-		acc_num_divider: '111111-11-111000',
-		acc_num: '11111111111003'
+		name : "임현수",
+		acc_name: '카카오뱅크',
+		acc_num_divider: '3333-05-5057845',
+		acc_num: '3333055057845'
 	  },
 ];
 
 const womanAccs = [
 	{
 		num: 0,
-		name : "홍길동",
+		name : "고길자",
 		acc_name: '국민은행',
 		acc_num_divider: '111111-11-111000',
 		acc_num: '11111111111004'
 	  },
 	  {
 		num: 1,
-		name : "홍길동",
+		name : "김유미",
 		acc_name: '국민은행',
 		acc_num_divider: '111111-11-111000',
 		acc_num: '11111111111005'

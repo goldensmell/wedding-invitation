@@ -24,13 +24,13 @@
     margin-top: 30px;
     margin-bottom: 10px;
     letter-spacing: 0.2em;
-    /* 배경 그라데이션 히든 처리 */
+    /* 배경 그라데이션 히든 처리 
     background: linear-gradient(to right top, #673ab7, #512da8);
     color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;*/
     font-weight: bold;
-    /* 텍스트 그림자 */
-    text-shadow: 2px 2px 25px#673ab7;
+    /* 텍스트 그림자
+    text-shadow: 2px 2px 25px#673ab7; */
   }
   
   .contact {

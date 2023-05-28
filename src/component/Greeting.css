@@ -37,34 +37,44 @@
 .greeting-title {
   font-size:25px;
   margin-top: 10px;
-  letter-spacing: 0.2em;
-  /* 배경 그라데이션 히든 처리 */
+  letter-spacing: 0.3em;
+  /* 배경 그라데이션 히든 처리 
   background: linear-gradient(to right top, #4776e6, #8e54e9);
   color: transparent;
   -webkit-background-clip: text;
-  font-weight: bold;
-  /* 텍스트 그림자 */
-  text-shadow: 2px 2px 20px#8e54e9;
+  font-weight: bold;*/
+  /* 텍스트 그림자 
+  text-shadow: 2px 2px 20px#8e54e9;*/
 }
 
 .greeting-message {
   padding-top: 10px;
-  padding-bottom: 30px;
-  line-height: 1.3rem;
+  padding-bottom: 35px;
+  line-height: 1.4rem;
   text-align: center;
 
-  /* 텍스트 그림자 #6601FF */
-  text-shadow: 2px 2px 25px#8e54e9; 
+  /* 텍스트 그림자 #6601FF 
+  text-shadow: 2px 2px 25px#8e54e9; */
   
 }
 
+.greeting-line {
+  border-top: 1px solid #8e54e9;
+  height: 1px;
+  width: 30%;
+}
+
 .greeting-family {
+  padding-top: 30px;
   width: 80%;
   font-size: 17px;
-  
-  border-top: 1px solid #8e54e9;
-  border-bottom: 1px solid #8e54e9;
 } 
+
+.family-table {
+  padding: 20px;
+  width: 100%;
+
+}
 
 /* .greeting-calendar {
   margin-top: 30px;
@@ -88,6 +98,7 @@
   }
 
   .greeting-family {
+    width: 50%;
     margin: 0 20px;
     font-size: 20px;
   } 
@@ -111,7 +122,9 @@
   }
 
   .greeting-family {
+    width: 60%;
     margin: 0 20px;
     font-size: 20px;
   } 
+  
 }

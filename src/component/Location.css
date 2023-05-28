@@ -23,13 +23,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 0.2em;
-    /* 배경 그라데이션 히든 처리 */
+    /* 배경 그라데이션 히든 처리 
     background: linear-gradient(to right top, #41295a, #2f0743);
     color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;*/
     font-weight: bold;
-    /* 텍스트 그림자 */
-    text-shadow: 2px 2px 20px#41295a;
+    /* 텍스트 그림자
+    text-shadow: 2px 2px 20px#41295a; */
   }
 
   .location-adress {
@@ -38,8 +38,8 @@
     padding-bottom: 10px;
     text-align: center;
   
-    /* 텍스트 그림자 #6601FF */
-    text-shadow: 2px 2px 20px#624284; 
+    /* 텍스트 그림자 #6601FF
+    text-shadow: 2px 2px 20px#624284;  */
   }
 
   .location_map {

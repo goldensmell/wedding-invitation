@@ -31,14 +31,15 @@ export default function Pictures() {
 
       {/* <img className='pictures-flower' src={img_flower}></img> */}
       <p className='pictures-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">GALLAERY</p>
-      <div className='pictures-images'>
+      <div className='pictures-images' >
         <Box sx={{ overflowY: 'scroll' }}>
-          <ImageList variant="masonry" cols={3} >
+          <ImageList cols={3} rowHeight={161} >
             {itemData.map((item) => (
               <ImageListItem key={item.src}>
                 <img
-                  src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
-                  srcSet={`${item.src}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                  // src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
+                  src={`${item.src}?w=161&auto=format`}
+                  srcSet={`${item.src}?w=161&auto=format&dpr=2 2x`}
                   alt={item.title}
                   loading="lazy"
                   onClick={() => handleClick(item.index)}
@@ -62,62 +63,112 @@ export default function Pictures() {
 const itemData = [
   {
     index: 0,
-    src: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    src: process.env.PUBLIC_URL+"/image/studio/1.jpg",
+    title: '0',
   },
   {
     index: 1,
-    src: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    src: process.env.PUBLIC_URL+"/image/studio/2.jpg",
+    title: '1',
   },
   {
     index: 2,
-    src: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    src: process.env.PUBLIC_URL+"/image/studio/3.jpg",
+    title: '2',
   },
   {
     index: 3,
-    src: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    src: process.env.PUBLIC_URL+"/image/studio/4.jpg",
+    title: '3',
   },
   {
     index: 4,
-    src: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    src: process.env.PUBLIC_URL+"/image/studio/5.jpg",
+    title: '4',
+  },
+  {
+    index: 16,
+    src: process.env.PUBLIC_URL+"/image/studio/17.jpg",
+    title: '16',
   },
   {
     index: 5,
-    src: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
+    src: process.env.PUBLIC_URL+"/image/studio/6.jpg",
+    title: '5',
   },
   {
     index: 6,
-    src: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
+    src: process.env.PUBLIC_URL+"/image/studio/7.jpg",
+    title: '6',
   },
   {
     index: 7,
-    src: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
+    src: process.env.PUBLIC_URL+"/image/studio/8.jpg",
+    title: '7',
   },
   {
     index: 8,
-    src: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
+    src: process.env.PUBLIC_URL+"/image/studio/9.jpg",
+    title: '8',
   },
   {
     index: 9,
-    src: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
+    src: process.env.PUBLIC_URL+"/image/studio/10.jpg",
+    title: '9',
   },
   {
     index: 10,
-    src: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
+    src: process.env.PUBLIC_URL+"/image/studio/11.jpg",
+    title: '10',
   },
   {
     index: 11,
-    src: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
+    src: process.env.PUBLIC_URL+"/image/studio/12.jpg",
+    title: '11',
+  },
+  {
+    index: 12,
+    src: process.env.PUBLIC_URL+"/image/studio/13.jpg",
+    title: '12',
+  },
+  {
+    index: 13,
+    src: process.env.PUBLIC_URL+"/image/studio/14.jpg",
+    title: '13',
+  },
+  {
+    index: 14,
+    src: process.env.PUBLIC_URL+"/image/studio/15.jpg",
+    title: '14',
+  },
+  {
+    index: 15,
+    src: process.env.PUBLIC_URL+"/image/studio/16.jpg",
+    title: '15',
+  },
+  
+  // {
+  //   index: 17,
+  //   src: process.env.PUBLIC_URL+"/image/studio/18.jpg",
+  //   title: '17',
+  // },
+  {
+    index: 18,
+    src: process.env.PUBLIC_URL+"/image/studio/19.jpg",
+    title: '18',
+  },
+  {
+    index: 19,
+    src: process.env.PUBLIC_URL+"/image/studio/20.jpg",
+    title: '19',
+  },
+  {
+    index: 20,
+    src: process.env.PUBLIC_URL+"/image/studio/21.jpg",
+    title: '20',
+  },{
+    index: 21,
+    src: process.env.PUBLIC_URL+"/image/studio/22.jpg",
+    title: '21',
   },
 ];
