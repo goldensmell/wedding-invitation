@@ -10,7 +10,7 @@
   }
 
   .intro-image {
-    background-size: cover;
+    background-size: contain;
   }
 
 .intro-bg-first{

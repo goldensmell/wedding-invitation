@@ -142,8 +142,8 @@ const womanAccs = [
 	  {
 		num: 1,
 		name : "김유미",
-		acc_name: '국민은행',
-		acc_num_divider: '111111-11-111000',
-		acc_num: '11111111111005'
+		acc_name: '카카오뱅크',
+		acc_num_divider: '3333-04-4471767',
+		acc_num: '3333044471767'
 	  },
 ];
