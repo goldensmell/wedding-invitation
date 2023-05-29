@@ -71,7 +71,7 @@
   .location_app:active,
   .location_app:hover,
   .location_app:focus {
-    background: rgba(98, 66, 132, 60%);
+    background: rgba(128, 112, 146, 60%);
     outline: 0;
   }
 

@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './Contact.css';
 // import img_contact from '../images/contacts-flower.png';
-import Button from '@mui/material/Button'
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -63,15 +62,15 @@ export default function Contact() {
      	 <p className='contacts-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 마음 보내실 곳</p>
 
 		<div className="contact contact_man">
-			<Button sx={{ width: '90%', maxWidth: 500}} variant="contained" color="primary" onClick={handleManShow}>
+			<button className="contact_button" onClick={handleManShow}>
 				신랑측 계좌번호
-			</Button>
+			</button>
 			<div className={isManShow ? "accs accs_man" : "acc_none"}> 
-				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
+				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#A493B7' }}>
 					{manAccs.map(acc => (
 						<ListItem key={acc.num}>
 							<ListItemText primary={acc.name} secondary={acc.acc_name + " : " + acc.acc_num_divider} />	
-							<IconButton aria-label="copy" color="secondary" onClick={() => handleCopy(acc.acc_num)}>
+							<IconButton aria-label="copy" color="promary" onClick={() => handleCopy(acc.acc_num)}>
 								<CopyAllIcon/>
 							</IconButton>
 						</ListItem>
@@ -81,16 +80,16 @@ export default function Contact() {
 			</div>
 		</div>
 		<div className="contact contact_woman">
-			<Button sx={{ width: '90%', maxWidth: 500}} variant="contained" color="primary" onClick={handleWomanShow}>
+			<button className="contact_button" onClick={handleWomanShow}>
 				신부측 계좌번호
-			</Button>
+			</button>
 			
 			<div className={isWomanShow ? "accs accs_woman" : "acc_none"}> 
-				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#673ab7' }}>
+				<List sx={{ width: '90%', maxWidth: 500, bgcolor: 'background.paper',marginTop:1, borderRadius:3,boxShadow:2, border:1, borderColor:'#A493B7' }}>
 					{womanAccs.map(acc => (
 						<ListItem key={acc.num}>
 							<ListItemText primary={acc.name} secondary={acc.acc_name + " : " + acc.acc_num_divider} />	
-							<IconButton aria-label="copy" color="secondary" onClick={() => handleCopy(acc.acc_num)}>
+							<IconButton aria-label="copy" color="promary" onClick={() => handleCopy(acc.acc_num)}>
 								<CopyAllIcon></CopyAllIcon>
 							</IconButton>
 						</ListItem>
