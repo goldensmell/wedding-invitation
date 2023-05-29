@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro_white.css'
 import img_intro from "../images/7.jpg"
-import img_and from "../images/and.png"
+import img_and from "../images/intro-hart.png"
 
 export default function Intro() {
   return (
@@ -13,12 +13,12 @@ export default function Intro() {
                 style={{
                           backgroundImage: `url(${img_intro})`,
                           backgroundRepeat: "no-repeat",
-                          backgroundSize: "contain",
+                          //backgroundSize: "cover",
                           // backgroundAttachment: "fixed",
                           display: "block",
                           top: 0,
                           left: 0,
-                          position: "fixed",
+                          //position: "fixed",
                           width: "100%",
                           height: "100%",
                           backgroundPosition: "top center"
@@ -40,9 +40,9 @@ export default function Intro() {
         </div>
 
         <div className='intro-names'>
-            <p className='name'> 임현수</p>
+            <p className='name'>임현수</p>
             <img className='and-image' src={img_and}/>
-            <p className='name'> 김유미</p>
+            <p className='name'>김유미</p>
         </div> 
        
         <div className='intro-contents'>

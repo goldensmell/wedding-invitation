@@ -9,6 +9,10 @@
     flex-direction: column;
   }
 
+  .intro-image {
+    background-size: cover;
+  }
+
 .intro-bg-first{
   width: 100%;
   max-width: 768px;
@@ -81,13 +85,9 @@
       height: fill-available;
       height: 70vh;
     }
-    /* .intro-image {
-      max-height: 70vh;
-      height: 70vh;
-      height: -webkit-fill-available;
-      height: fill-available;
-      object-fit: contain; 
-    }*/
+    .intro-image {
+      background-size: contain;
+    }
     .intro-names {
       margin-top: 50px;
     }
@@ -116,7 +116,7 @@
       height: 70vh;
     }
     .intro-image {
-      background-size: cover;
+      background-size: contain;
     }
     /* .intro-image {
       max-height: 70vh;

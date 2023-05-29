@@ -32,14 +32,13 @@ export default function Pictures() {
       {/* <img className='pictures-flower' src={img_flower}></img> */}
       <p className='pictures-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">GALLAERY</p>
       <div className='pictures-images' >
-        <Box sx={{ overflowY: 'scroll' }}>
-          <ImageList cols={3} rowHeight={161} >
+        <Box>
+          <ImageList  cols={3}  >
             {itemData.map((item) => (
               <ImageListItem key={item.src}>
                 <img
-                  // src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
-                  src={`${item.src}?w=161&auto=format`}
-                  srcSet={`${item.src}?w=161&auto=format&dpr=2 2x`}
+                  src={`${item.src}?w=164&h=164&fit=crop&auto=format`}
+                  srcSet={`${item.src}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                   alt={item.title}
                   loading="lazy"
                   onClick={() => handleClick(item.index)}
