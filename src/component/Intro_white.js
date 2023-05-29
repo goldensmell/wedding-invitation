@@ -23,10 +23,10 @@ export default function Intro() {
                           height: "100%",
                           backgroundPosition: "top center"
             }}></div>
-            {/* <img className='intro-image' src={img_intro}/> */}
+            <img className='intro-image' src={img_intro}/>
           </div>
         </div>
-        <div className='intro-bg-second'>
+        {/* <div className='intro-bg-second'>
           <div className='intro-bg-wrap'>
             <div className='intro-white-bg'style={{
                           backgroundColor: "white",
@@ -37,7 +37,7 @@ export default function Intro() {
             }}>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='intro-names'>
             <p className='name'>임현수</p>
