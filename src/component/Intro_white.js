@@ -7,7 +7,7 @@ export default function Intro() {
   return (
     <div className='intro'>
         
-        <div className='intro-bg-first'>
+        {/* <div className='intro-bg-first'>
           <div className='intro-bg-wrap'>
             <div className='intro-image' 
                 style={{
@@ -23,9 +23,8 @@ export default function Intro() {
                           height: "100%",
                           backgroundPosition: "top center"
             }}></div>
-            <img className='intro-image' src={img_intro}/>
           </div>
-        </div>
+        </div> */}
         {/* <div className='intro-bg-second'>
           <div className='intro-bg-wrap'>
             <div className='intro-white-bg'style={{
@@ -38,6 +37,7 @@ export default function Intro() {
             </div>
           </div>
         </div> */}
+        <img className='intro-image' src={img_intro}/>
 
         <div className='intro-names'>
             <p className='name'>임현수</p>
@@ -47,7 +47,7 @@ export default function Intro() {
        
         <div className='intro-contents'>
             <p> 2023. 08. 26 토요일 오전 11:30</p>
-            <p> W스웨어컨벤션 L층 그레이스홀</p>
+            <p> 더블유스퀘어컨벤션 L층 그레이스홀</p>
         </div>
     </div>
   )

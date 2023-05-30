@@ -7,6 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 import CopyAllIcon from '@mui/icons-material/CopyAll';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import img_line from "../images/line_heart.jpeg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -58,8 +59,8 @@ export default function Contact() {
   return (
 	<ThemeProvider theme={theme}>
     <div className="contacts">
-		{/* <img className='contacs-flower' src={img_contact}></img> */}
-     	 <p className='contacts-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 마음 보내실 곳</p>
+		{/* <img className='contacs-flower' src={img_contact}></img> */}{/*  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"*/}
+     	 <p className='contacts-title' > 마음 보내실 곳</p>
 
 		<div className="contact contact_man">
 			<button className="contact_button" onClick={handleManShow}>
@@ -103,27 +104,33 @@ export default function Contact() {
 			<p className='contacts-thanks-message'>감사합니다.</p>
 		</div> */}
 	</div>
+
+	<div className='contacts-thanks'>
+		<img className='img-line' src={img_line}/>
+		<p className='contacts-thanks-message'>감사합니다.</p>
+	</div>
+	
 	</ThemeProvider>
   )
 }
 
 const manAccs = [
-	{
+	// {
+	// 	num: 0,
+	// 	name : "임종국",
+	// 	acc_name: '국민은행',
+	// 	acc_num_divider: '111111-11-111000',
+	// 	acc_num: '11111111111001'
+	//   },
+	//   {
+	// 	num: 1,
+	// 	name : "길금숙",
+	// 	acc_name: '우체국',
+	// 	acc_num_divider: '301408-02-160170',
+	// 	acc_num: '30140802160170'
+	//   },
+	  {
 		num: 0,
-		name : "임종국",
-		acc_name: '국민은행',
-		acc_num_divider: '111111-11-111000',
-		acc_num: '11111111111001'
-	  },
-	  {
-		num: 1,
-		name : "길금숙",
-		acc_name: '우체국',
-		acc_num_divider: '301408-02-160170',
-		acc_num: '30140802160170'
-	  },
-	  {
-		num: 2,
 		name : "임현수",
 		acc_name: '카카오뱅크',
 		acc_num_divider: '3333-05-5057845',
@@ -132,13 +139,13 @@ const manAccs = [
 ];
 
 const womanAccs = [
-	{
-		num: 0,
-		name : "고길자",
-		acc_name: '국민은행',
-		acc_num_divider: '111111-11-111000',
-		acc_num: '11111111111004'
-	  },
+	// {
+	// 	num: 0,
+	// 	name : "고길자",
+	// 	acc_name: '국민은행',
+	// 	acc_num_divider: '111111-11-111000',
+	// 	acc_num: '11111111111004'
+	//   },
 	  {
 		num: 1,
 		name : "김유미",
