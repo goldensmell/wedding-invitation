@@ -7,25 +7,25 @@ export default function Intro() {
   return (
     <div className='intro'>
         
-        {/* <div className='intro-bg-first'>
+        <div className='intro-bg-first'>
           <div className='intro-bg-wrap'>
             <div className='intro-image' 
                 style={{
                           backgroundImage: `url(${img_intro})`,
                           backgroundRepeat: "no-repeat",
-                          //backgroundSize: "cover",
+                          backgroundSize: "contain",
                           // backgroundAttachment: "fixed",
                           display: "block",
                           top: 0,
                           left: 0,
-                          //position: "fixed",
+                          position: "fixed",
                           width: "100%",
                           height: "100%",
                           backgroundPosition: "top center"
             }}></div>
           </div>
-        </div> */}
-        {/* <div className='intro-bg-second'>
+        </div>
+        <div className='intro-bg-second'>
           <div className='intro-bg-wrap'>
             <div className='intro-white-bg'style={{
                           backgroundColor: "white",
@@ -36,8 +36,8 @@ export default function Intro() {
             }}>
             </div>
           </div>
-        </div> */}
-        <img className='intro-image' src={img_intro}/>
+        </div>
+        {/* <img className='intro-image' src={img_intro}/> */}
 
         <div className='intro-names'>
             <p className='name'>임현수</p>
