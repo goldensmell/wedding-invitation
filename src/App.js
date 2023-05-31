@@ -22,15 +22,16 @@ function App() {
 
   return (
     <div className="App">
-      {/* 인트로 이미지 */}
-      <Intro_img/>
-      
-      {/* 인트로 */}
-      <Intro_white />
+      <div className='invitation'>
+        {/* 인트로 이미지 */}
+        <Intro_img/>
 
-      {/* 인사말 */}
-      <Greeting />
+        {/* 인트로 */}
+        <Intro_white />
 
+        {/* 인사말 */}
+        <Greeting />
+      </div>
       {/* 사진첩 */}
       <Pictures />
 
