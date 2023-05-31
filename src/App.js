@@ -1,4 +1,5 @@
 import './App.css';
+import Intro_img from './component/Intro_img';
 import Pictures from './component/Pictures';
 import Intro_white from './component/Intro_white';
 import Greeting from './component/Greeting';
@@ -21,6 +22,9 @@ function App() {
 
   return (
     <div className="App">
+      {/* 인트로 이미지 */}
+      <Intro_img/>
+      
       {/* 인트로 */}
       <Intro_white />
 

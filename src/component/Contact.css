@@ -1,7 +1,7 @@
 
   /* 콘텐츠 */
   .contacts {
-    margin-top: 50px;
+    padding-top: 30px;
     width: 100vw;
     max-width: 768px;
     /* margin-bottom: 50px; */
@@ -11,18 +11,19 @@
     align-items: center;
     flex-direction: column;
 
+    position: relative;
     background-color: #fafafa;
+    z-index: 10;
   }
 
   .contacs-flower {
-    margin-top: 30px;
+    padding-top: 30px;
     width: 70px;
   }
   
   .contacts-title {
     font-size:25px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     letter-spacing: 0.2em;
     /* 배경 그라데이션 히든 처리 
     background: linear-gradient(to right top, #673ab7, #512da8);
@@ -38,7 +39,7 @@
       display:flex;
       align-items: center;
       flex-direction:column;
-      margin-top: 30px;
+      padding-top: 30px;
   }
 
   .acc_none {
@@ -75,7 +76,7 @@
 
   .contacts-thanks {
     width: 100%;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -87,7 +88,7 @@
   }
 
   .contacts-thanks-message {
-   margin-bottom: 16px; 
+   padding-bottom: 16px; 
    font-size:16px;
    letter-spacing: 0.4em;
    color: #8e8e8e;

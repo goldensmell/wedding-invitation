@@ -1,13 +1,13 @@
 import React from 'react'
 import './Intro_white.css'
-import img_intro from "../images/7.jpg"
+// import img_intro from "../images/7.jpg"
 import img_and from "../images/intro-hart.png"
 
 export default function Intro() {
   return (
     <div className='intro'>
         
-        <div className='intro-bg-first'>
+        {/* <div className='intro-bg-first'>
           <div className='intro-bg-wrap'>
             <div className='intro-image' 
                 style={{
@@ -36,7 +36,8 @@ export default function Intro() {
             }}>
             </div>
           </div>
-        </div>
+        </div> */}
+
         {/* <img className='intro-image' src={img_intro}/> */}
 
         <div className='intro-names'>
@@ -49,6 +50,8 @@ export default function Intro() {
             <p> 2023. 08. 26 토요일 오전 11:30</p>
             <p> 더블유스퀘어컨벤션 L층 그레이스홀</p>
         </div>
+
+        <div className='intro-calendar'></div>
     </div>
   )
 }
