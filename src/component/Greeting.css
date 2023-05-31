@@ -39,8 +39,9 @@
 }
 
 .greeting-title {
+  padding-top: 15px;
   font-size:25px;
-  margin-top: 10px;
+  padding-top: 10px;
   letter-spacing: 0.3em;
   /* 배경 그라데이션 히든 처리 
   background: linear-gradient(to right top, #4776e6, #8e54e9);
@@ -96,7 +97,7 @@
 
   .greeting-title {
     font-size:30px;
-    margin-top: 18px;
+    padding-top: 18px;
   }
 
   .greeting-message {
@@ -107,7 +108,7 @@
 
   .greeting-family {
     width: 50%;
-    margin: 0 20px;
+    padding: 0 20px;
     font-size: 20px;
   } 
 
@@ -123,7 +124,7 @@
 
   .greeting-title {
     font-size:30px;
-    margin-top: 28px;
+    padding-top: 28px;
   }
 
   .greeting-message {
@@ -134,7 +135,7 @@
 
   .greeting-family {
     width: 60%;
-    margin: 0 20px;
+    padding: 0 20px;
     font-size: 20px;
   } 
   
