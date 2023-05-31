@@ -74,7 +74,7 @@
     padding-left: 5px;
   }
   .and-image {
-    padding: 0 10px;
+    margin: 0 10px;
     width: 20px;
   }
   .intro-contents {
@@ -86,7 +86,7 @@
     flex-direction: column;
   }
   .intro-contents p {
-    padding: 5px 0;
+    margin: 5px 0;
     color: #555555;
   }
 
@@ -104,7 +104,7 @@
     } */
 
     .intro {
-      height: 350px;
+      height: 400px;
     }
     .intro-names {
       padding-top: 50px;
@@ -122,7 +122,7 @@
     }
     .intro-contents p {
       font-size: 20px;
-      padding: 10px 0;
+      margin: 10px 0;
     }
   }
 
@@ -145,7 +145,7 @@
       object-fit: contain; 
     } */
     .intro {
-      height: 380px;
+      height: 400px;
     }
 
     .intro-names {
@@ -163,7 +163,7 @@
     }
     .intro-contents p {
       font-size: 23px;
-      padding: 10px 0;
+      margin: 10px 0;
     }
   }
 

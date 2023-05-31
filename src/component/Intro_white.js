@@ -1,9 +1,44 @@
-import React from 'react'
+import React, {useEffect,useState} from 'react'
 import './Intro_white.css'
 // import img_intro from "../images/7.jpg"
 import img_and from "../images/intro-hart.png"
+import dayjs from 'dayjs';
+// import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
+// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+// import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 
 export default function Intro() {
+
+  useEffect(() => {
+
+  });
+
+  const [dayDiff, setDayDiff] = useState();
+
+  const calDayDiff = () => {
+
+    setDayDiff();
+  };
+
+  // const dayEnToKo = (en) => {
+  //   if(en === 'Su') {
+  //     return "일";
+  //   }else if(en === "Mo") {
+  //     return "월"
+  //   }else if(en === "Tu") {
+  //     return "화"
+  //   }else if(en === "We") {
+  //     return "수"
+  //   }else if(en === "Th") {
+  //     return "목"
+  //   }else if(en === "Fr") {
+  //     return "금"
+  //   }else if(en === "Sa") {
+  //     return "토"
+  //   }
+  // } ;
+
   return (
     <div className='intro'>
         
@@ -48,10 +83,21 @@ export default function Intro() {
        
         <div className='intro-contents'>
             <p> 2023. 08. 26 토요일 오전 11:30</p>
-            <p> 더블유스퀘어컨벤션 L층 그레이스홀</p>
+            <p> W스퀘어컨벤션 L층 그레이스홀</p>
         </div>
 
-        <div className='intro-calendar'></div>
+        <div className='intro-calendar'>
+          {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DemoContainer components={['DateCalendar']}>
+              <DemoItem>
+                <DateCalendar defaultValue={dayjs('2023-08-26')}
+                              view='day'
+                              dayOfWeekFormatter={(day) => dayEnToKo(`${day}`)}
+                              readOnly/>
+              </DemoItem>
+            </DemoContainer>
+          </LocalizationProvider>*/}
+        </div> 
     </div>
   )
 }

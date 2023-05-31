@@ -67,7 +67,7 @@ export default function Location() {
       {/* <img className='location-flower' src={img_location}></img> */}
       <p className='location-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">LOCATION</p>
       <p className='location-adress' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        성남시 분당구 판교역로 226번길 16(삼평동) 더블유스퀘어</p>
+        성남시 분당구 판교역로 226번길 16(삼평동) W스퀘어</p>
       
       <div className='location_map' id="map" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"/>
       <div className='location_apps' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
