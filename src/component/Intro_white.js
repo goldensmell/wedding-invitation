@@ -3,6 +3,7 @@ import './Intro_white.css'
 // import img_intro from "../images/7.jpg"
 import img_and from "../images/intro-hart.png"
 import dayjs from 'dayjs';
+import Calendar from "./Calendar"
 // import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
 // import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 // import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
@@ -87,6 +88,7 @@ export default function Intro() {
         </div>
 
         <div className='intro-calendar'>
+          <Calendar/>
           {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={['DateCalendar']}>
               <DemoItem>
