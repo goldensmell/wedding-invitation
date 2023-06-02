@@ -2,7 +2,7 @@
     width: 100vw;
     max-width: 768px;
     
-    height: 500px;
+    height: 800px;
     /* height: calc(var(--vh, 1vh) * 100);
     height: -webkit-fill-available;
     height: fill-available; */
@@ -81,14 +81,13 @@
 
 }
 
-/* .greeting-calendar {
-  margin-top: 30px;
-  max-width: 768px;
-} */
+.greeting-calendar {
+  padding-top: 10px;
+} 
 
 @media (min-width:768px)  {
   .greeting {
-    height: 550px;
+    height: 950px;
   }
 
   .greeting-flower {
@@ -108,7 +107,7 @@
 
   .greeting-family {
     width: 50%;
-    padding: 0 20px;
+    padding: 20px;
     font-size: 20px;
   } 
 
@@ -116,7 +115,7 @@
 
 @media (min-width:1024px) {
   .greeting {
-    height: 600px;
+    height: 950px;
   }
   .greeting-flower {
     width: 80px;
@@ -135,7 +134,7 @@
 
   .greeting-family {
     width: 60%;
-    padding: 0 20px;
+    padding: 20px;
     font-size: 20px;
   } 
   

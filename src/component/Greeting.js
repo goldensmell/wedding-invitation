@@ -1,8 +1,10 @@
 import React, {useEffect} from 'react'
 import './Greeting.css'
 // import flower from '../images/greeting-flower.png'
+import Calendar from "./Calendar"
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 // import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 // import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 // import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
@@ -50,11 +52,9 @@ export default function Greeting() {
         </table>
       </div> 
 
-      {/* <div className='greeting-calendar'>
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <DateCalendar defaultValue={dayjs('2023-08-26')} readOnly />
-        </LocalizationProvider>
-      </div> */}
+      <div className='greeting-calendar' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <Calendar/>
+       </div> 
     </div>
   )
 }

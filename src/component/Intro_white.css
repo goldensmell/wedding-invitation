@@ -1,6 +1,6 @@
 .intro {
     width: 100vw;
-    height: 600px;
+    height: 300px;
     /* height: calc(var(--vh, 1vh) * 100);
     height: -webkit-fill-available;
     height: fill-available; */
@@ -104,7 +104,7 @@
     } */
 
     .intro {
-      height: 700px;
+      height: 400px;
     }
     .intro-names {
       padding-top: 50px;
@@ -145,7 +145,7 @@
       object-fit: contain; 
     } */
     .intro {
-      height: 700px;
+      height: 400px;
     }
 
     .intro-names {

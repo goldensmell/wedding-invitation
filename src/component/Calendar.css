@@ -49,8 +49,14 @@
         padding-top: 20px;
         width: 45%;
     }
+    
+    .calendar-month {
+        font-size: 20px;
+    }
+
     .calendar-day {
         padding: 13px;
+        font-size: 18px;
     }
 
     .d-day {
@@ -65,8 +71,14 @@
         padding-top: 20px;
         width: 45%;
     }
+
+    .calendar-month {
+        font-size: 20px;
+    }
+
     .calendar-day {
         padding: 13px;
+        font-size: 18px;
     }
 
     .d-day {
