@@ -27,7 +27,7 @@ export default function Calendar() {
 
   return (
     <div className='calendar-wrapper'>
-        <div className='calendar-month'>2022년 8월</div>
+        <div className='calendar-month'>2023년 8월</div>
         <div className='calendar-days-wrapper'>
         {weeks.map(week => (
                                 <div className='calendar-week'>{week}</div>
