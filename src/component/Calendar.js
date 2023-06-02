@@ -18,7 +18,9 @@ export default function Calendar() {
 
         if(idx === 0 || idx === 1 || idx === 33 || idx === 34) {
             return <div className='calendar-day other-month'>{day}</div>
-        }else {
+        }if(day === 26) {
+            return <div className='calendar-day d-day'>{day}</div>
+        } else { 
             return <div className='calendar-day'>{day}</div>
         }
     }
