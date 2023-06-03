@@ -2,7 +2,7 @@
     width: 100vw;
     max-width: 768px;
     
-    height: 800px;
+    height: 900px;
     /* height: calc(var(--vh, 1vh) * 100);
     height: -webkit-fill-available;
     height: fill-available; */
@@ -82,12 +82,12 @@
 }
 
 .greeting-calendar {
-  padding-top: 10px;
+  padding-top: 50px;
 } 
 
 @media (min-width:768px)  {
   .greeting {
-    height: 950px;
+    height: 1050px;
   }
 
   .greeting-flower {
@@ -115,7 +115,7 @@
 
 @media (min-width:1024px) {
   .greeting {
-    height: 950px;
+    height: 1050px;
   }
   .greeting-flower {
     width: 80px;
