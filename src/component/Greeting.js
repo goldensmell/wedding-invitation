@@ -25,7 +25,7 @@ export default function Greeting() {
     <div className='greeting'>
       {/* <div className='greeting-outline'></div> */}
       {/* <img className='greeting-flower' src={flower}></img> */}
-      <p className='greeting-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> INVITATION</p>
+      <p className='greeting-title'> INVITATION</p>
       <div className='greeting-message' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <p>평생을 같이하고 싶은 사람을 만났습니다. </p>
           <p>서로 아껴주고 이해하며</p>

@@ -41,7 +41,6 @@
 .greeting-title {
   padding-top: 15px;
   font-size:25px;
-  padding-top: 10px;
   letter-spacing: 0.3em;
   /* 배경 그라데이션 히든 처리 
   background: linear-gradient(to right top, #4776e6, #8e54e9);
