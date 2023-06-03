@@ -2,7 +2,7 @@
     width: 100vw;
     max-width: 768px;
     
-    height: 900px;
+    height: 950px;
     /* height: calc(var(--vh, 1vh) * 100);
     height: -webkit-fill-available;
     height: fill-available; */
@@ -39,7 +39,7 @@
 }
 
 .greeting-title {
-  padding-top: 15px;
+  padding-top: 80px;
   font-size:25px;
   letter-spacing: 0.3em;
   /* 배경 그라데이션 히든 처리 
