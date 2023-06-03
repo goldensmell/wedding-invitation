@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.0bd23228.css",
-    "main.js": "/wedding-invitation/static/js/main.de993ff3.js",
+    "main.css": "/wedding-invitation/static/css/main.c216f4cb.css",
+    "main.js": "/wedding-invitation/static/js/main.0a7aa1f8.js",
     "static/js/787.d0f4f082.chunk.js": "/wedding-invitation/static/js/787.d0f4f082.chunk.js",
     "static/media/7.jpg": "/wedding-invitation/static/media/7.05821776323244c13c1a.jpg",
     "static/media/NanumSquareRoundR.ttf": "/wedding-invitation/static/media/NanumSquareRoundR.f062cb52be3e9829834c.ttf",
@@ -10,12 +10,12 @@
     "static/media/NanumSquareRoundL.ttf": "/wedding-invitation/static/media/NanumSquareRoundL.34b53f3711c695552994.ttf",
     "static/media/intro-hart.png": "/wedding-invitation/static/media/intro-hart.41712b6bbef3f1fbfd7a.png",
     "index.html": "/wedding-invitation/index.html",
-    "main.0bd23228.css.map": "/wedding-invitation/static/css/main.0bd23228.css.map",
-    "main.de993ff3.js.map": "/wedding-invitation/static/js/main.de993ff3.js.map",
+    "main.c216f4cb.css.map": "/wedding-invitation/static/css/main.c216f4cb.css.map",
+    "main.0a7aa1f8.js.map": "/wedding-invitation/static/js/main.0a7aa1f8.js.map",
     "787.d0f4f082.chunk.js.map": "/wedding-invitation/static/js/787.d0f4f082.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd23228.css",
-    "static/js/main.de993ff3.js"
+    "static/css/main.c216f4cb.css",
+    "static/js/main.0a7aa1f8.js"
   ]
 }
