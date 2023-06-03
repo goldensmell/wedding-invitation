@@ -5,21 +5,15 @@ import Calendar from "./Calendar"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-// import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
-// import dayjs from 'dayjs';
-
-
 export default function Greeting() {
 
-  // useEffect(() => {
-  //   AOS.init({
-  //     offset: 30,
-  //     delay: 200,
-  //     duration: 1000
-  //   });
-  // });
+  useEffect(() => {
+    AOS.init({
+      offset: 30,
+      delay: 200,
+      duration: 1000
+    });
+  });
 
   return (
     <div className='greeting'>

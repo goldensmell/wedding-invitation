@@ -17,3 +17,7 @@
     margin: auto;
     background-color: white;
 }
+
+.intro-wrapper{
+    z-index: 10;
+}

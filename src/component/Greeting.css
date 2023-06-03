@@ -13,8 +13,6 @@
     flex-direction: column;
     background-color: white;
     position: relative;
-    z-index: 11;
-    
 }
 
 /* .greeting-outline {
