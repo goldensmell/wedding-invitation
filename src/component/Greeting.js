@@ -25,8 +25,8 @@ export default function Greeting() {
     <div className='greeting'>
       {/* <div className='greeting-outline'></div> */}
       {/* <img className='greeting-flower' src={flower}></img> */}
-      <p className='greeting-title'> INVITATION</p>
-      <div className='greeting-message' >
+      <p className='greeting-title' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> INVITATION</p>
+      <div className='greeting-message' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <p>평생을 같이하고 싶은 사람을 만났습니다. </p>
           <p>서로 아껴주고 이해하며</p>
           <p>사랑 배풀며 살고 싶습니다.</p>
@@ -34,7 +34,7 @@ export default function Greeting() {
           <p>주셔서 힘찬 출발의 디딤이 되어 주십시오.</p>
       </div>
       <div className='greeting-line'></div>
-      <div className='greeting-family'>
+      <div className='greeting-family' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         <table className='family-table'>
           <thead></thead>
           <tbody>
@@ -52,7 +52,7 @@ export default function Greeting() {
         </table>
       </div> 
 
-      <div className='greeting-calendar'>
+      <div className='greeting-calendar' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <Calendar/>
        </div> 
     </div>
