@@ -98,13 +98,13 @@ export default function Contact() {
 }
 
 const manAccs = [
-	// {
-	// 	num: 0,
-	// 	name : "임종국",
-	// 	acc_name: '국민은행',
-	// 	acc_num_divider: '111111-11-111000',
-	// 	acc_num: '11111111111001'
-	//   },
+	{
+		num: 0,
+		name : "임종국",
+		acc_name: '국민은행',
+		acc_num_divider: '407901-04-222945',
+		acc_num: '40790104222945'
+	  },
 	//   {
 	// 	num: 1,
 	// 	name : "길금숙",
